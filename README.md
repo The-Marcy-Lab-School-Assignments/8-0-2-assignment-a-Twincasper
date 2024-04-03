@@ -1,5 +1,8 @@
 # 8-0-2-assignment
 
+### Deployed Link
+https://seven-0-2-assignment-twincasper.onrender.com
+
 In this assignment, you will use Express as a Middleman for API requests. Refer to the [lecture notes](https://github.com/The-Marcy-Lab-School/8-0-2-express-api-middleman) for support.
 
 **Table of Contents**
@@ -76,11 +79,11 @@ When deploying, you will use the `npm start` command to start the server using t
 
 Before continuing, make sure that these tasks are completed!
 
-- [ ] Has a `giphy-search` project folder with a built `dist/` folder
-- [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
-- [ ] `package.json` has `express` and `dotenv` installed as a dependency and `nodemon` as a dev dependency
-- [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
-- [ ] Environment variables are stored in the `.env` folder and `.env` is added to the `.gitignore` file
+- [X] Has a `giphy-search` project folder with a built `dist/` folder
+- [X] Has a `server` folder with an `index.js` file and a `package.json` file inside
+- [X] `package.json` has `express` and `dotenv` installed as a dependency and `nodemon` as a dev dependency
+- [X] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
+- [X] Environment variables are stored in the `.env` folder and `.env` is added to the `.gitignore` file
 
 ## Part 2 — API Middleman
 
@@ -98,13 +101,13 @@ Add a search endpoint to your server, letting the frontend send search GET reque
 
 **Server/Frontend Application Technical Requirements**
 
-- [ ] In `index.js`, the `express()` function is used to create an `app`
-- [ ] The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
-- [ ] The `app` listens on an available port (I recommend `8080`)
-- [ ] A `/api/gifs` endpoint is available. 
-- [ ] The server can send a fetch request to the Giphy API using the API Key from `process.env`
-- [ ] The frontend `vite.config.js` file has been updated to enable proxy requests
-- [ ] The `/api/gifs` endpoint can parse the `req.query` parameters to get the search term and make a request to the Giphy API's search endpoint.
+- [X] In `index.js`, the `express()` function is used to create an `app`
+- [X] The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
+- [X] The `app` listens on an available port (I recommend `8080`)
+- [X] A `/api/gifs` endpoint is available. 
+- [X] The server can send a fetch request to the Giphy API using the API Key from `process.env`
+- [X] The frontend `vite.config.js` file has been updated to enable proxy requests
+- [X] The `/api/gifs` endpoint can parse the `req.query` parameters to get the search term and make a request to the Giphy API's search endpoint.
 
 ## Part 3 — Deploy
 
@@ -116,4 +119,4 @@ Then, add the deployed link to your GitHub About section of the Giphy Search app
 
 **Deployment Technical Requirements**
 
-- [ ] Your GitHub page has a link to the deployed server in the About section. 
+- [X] Your GitHub page has a link to the deployed server in the About section. 
